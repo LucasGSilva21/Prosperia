@@ -1,3 +1,8 @@
+/**
+ * Author: Lucas Gabriel Silva
+ * GitHub: https://github.com/LucasGSilva21
+ */
+
 const User = require('../models/User');
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');

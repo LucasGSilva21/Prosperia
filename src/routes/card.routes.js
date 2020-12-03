@@ -1,3 +1,8 @@
+/**
+ * Author: Lucas Gabriel Silva
+ * GitHub: https://github.com/LucasGSilva21
+ */
+
 const { Router } = require('express');
 
 const CardController = require('../controllers/CardController');

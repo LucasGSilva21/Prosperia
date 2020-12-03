@@ -1,3 +1,8 @@
+/**
+ * Author: Lucas Gabriel Silva
+ * GitHub: https://github.com/LucasGSilva21
+ */
+
 const UserCard = require('../models/UserCard');
 
 module.exports = {
