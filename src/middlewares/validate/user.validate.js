@@ -1,3 +1,8 @@
+/**
+ * Author: Lucas Gabriel Silva
+ * GitHub: https://github.com/LucasGSilva21
+ */
+
 const User = require('../../models/User');
 const Yup = require('yup');
 
@@ -29,6 +34,7 @@ module.exports = {
                 password: Yup.string().required(),
                 cpf: Yup.string().required(),
                 dateBirth: Yup.date().required(),
+                avatar: Yup.string(),
             });
 
             await schema.validate(req.body);

@@ -19,6 +19,10 @@ const CardSchema = new mongoose.Schema({
         unique: true,
         required: true,
     },
+    photo: {
+        type: String,
+        required: false,
+    },
     createdAt: {
         type: Date,
         default: Date.now,
